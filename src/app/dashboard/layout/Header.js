@@ -32,10 +32,10 @@ export default function Header() {
                             <img src={items.url} className="w-full h-full rounded-full object-cover" alt=""/> 
 
                             {items.isActive && (
-                                <span className="absolute right-0 bottom-0 h-3 w-3 rounded-full shadow-lg">
-                                    <span class="animate-ping block h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                                    <span class="block absolute top-0 right-0 rounded-full h-full w-full bg-green-500"></span>
-                                </span>
+                                <div className="absolute right-0 bottom-0 h-3 w-3 rounded-full shadow-lg">
+                                    <span className="animate-ping block h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                    <span className="block absolute top-0 right-0 rounded-full h-full w-full bg-green-500"></span>
+                                </div>
                             )}
                             
                         </div>

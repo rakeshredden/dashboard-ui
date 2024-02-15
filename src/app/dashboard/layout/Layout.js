@@ -5,7 +5,7 @@ export default function Layout({children}) {
   return (
     <section className="bg-gray-100 min-h-screen flex">
 
-        <div className="w-24 bg-white min-h-screen p-5 rounded-r-3xl">
+        <div className="w-24 bg-white min-h-screen rounded-r-3xl">
             <SideBar/>
         </div>
 

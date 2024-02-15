@@ -14,7 +14,7 @@ export default function SideBar() {
   console.log(getName);
 
   return (
-    <div className="flex flex-col items-center justify-between p-5 h-full"> 
+    <div className="flex flex-col items-center justify-between py-5 px-4 h-full"> 
 
       <div className="border-b block w-full pb-5 text-center border-b-gray-300 mb-5">
         <Link href="/dashboard" className="inline-block ">

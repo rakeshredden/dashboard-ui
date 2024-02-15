@@ -41,7 +41,6 @@ export default function Dashboard() {
                   </div>
               </div>
 
-
               <div className='pt-2'>
                 <div className='mt-5'>
                   <div className='flex justify-between text-xs font-medium'>
@@ -80,6 +79,50 @@ export default function Dashboard() {
           )
         })}
         
+      </section>
+
+      <section className='grid grid-cols-3 gap-10 pt-10'>
+          <div className='col-span-2'>
+              <div className='bg-primary p-8 text-white flex rounded-2xl items-end'>
+
+                  <div className='w-36'>
+                    <img src="/images/writing.png" alt="" className=""/>
+                  </div>
+
+                  <div className='px-10 flex-1'>
+                    <h2 className='text-2xl font-semibold'>
+                      Creative outdoor ads
+                    </h2>
+                    <p className='pt-2 text-sm'>
+                      Every large design company whether it’s a multi-national branding corporation or a regular 
+                      down at heel tatty magazine publisher needs to fill holes in the workforce.
+                    </p>
+                  </div>
+
+                  <div className='w-32'>
+                    <button className='bg-white rounded text-primary font-medium text-sm inline-block px-7 py-3'>
+                      See More
+                    </button>
+                  </div>
+
+              </div>
+
+              <div className='pt-10 grid grid-cols-4 gap-10'>
+                {/* <div className='bg-white rounded-lg '>
+                  <p>Twitter</p>
+
+                  <div>
+                    <div className='bg-green-100'>
+                      <p>67%</p>
+                    </div>
+                  </div>
+                </div> */}
+              </div>
+          </div>
+
+          <div className=''>
+
+          </div>
       </section>
     </Layout>
   );

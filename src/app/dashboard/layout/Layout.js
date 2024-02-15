@@ -12,7 +12,7 @@ export default function Layout({children}) {
         <section className="flex-1 w-full">
             <Header/>
 
-            <main className="p-5">
+            <main className="px-10 py-5">
                 {children}
             </main>
 

@@ -6,7 +6,7 @@ export default function Blog() {
     <Layout>
         <h1 className='text-3xl font-semibold capitalize text-gray-900'>Blog</h1>
 
-        <div className='grid grid-cols-4 gap-6 pt-'>
+        <div className='grid grid-cols-4 gap-6 pt-8'>
           <div className='space-y-6'>
 
             <div className='bg-white rounded p-4'>

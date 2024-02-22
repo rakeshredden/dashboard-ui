@@ -176,9 +176,7 @@ export default function Blog() {
                   <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-orange-100'>Minimal</span>
               </div>
 
-              <div className=''>
-                <img className='rounded' src='https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg' alt=''/>
-              </div>
+              
 
               <h2 className='text-2xl text-gray-800 font-medium pt-4'>Cologne</h2>
               <p className='pt-3'>
@@ -212,9 +210,7 @@ export default function Blog() {
                   <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-orange-100'>Minimal</span>
               </div>
 
-              <div className=''>
-                <img className='rounded' src='https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg' alt=''/>
-              </div>
+              
 
               <h2 className='text-2xl text-gray-800 font-medium pt-4'>Cologne</h2>
               <p className='pt-3'>

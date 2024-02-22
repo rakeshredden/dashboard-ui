@@ -3,12 +3,15 @@
 import Link from 'next/link';
 import Layout from './layout/Layout';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import { Chart, registerables } from 'chart.js';
+import { Bar } from 'react-chartjs-2';
+
 import 'react-circular-progressbar/dist/styles.css';
 
 
 export default function Dashboard() {
 
-  
+  Chart.register(...registerables);
 
   const data = [
     {id: 1, color:"green", name: "Ava Gregoraci", countries:"Bulgaria", instagram:"65376", facebook: "12109", twitter: "132645", image:"https://img.freepik.com/free-photo/horizontal-portrait-smiling-happy-young-pleasant-looking-female-wears-denim-shirt-stylish-glasses-with-straight-blonde-hair-expresses-positiveness-poses_176420-13176.jpg",},
@@ -25,9 +28,23 @@ export default function Dashboard() {
 
   const NumberFormat = (number) => {
     const formattedNumber = new Intl.NumberFormat('en-US').format(number);
-
     return formattedNumber;
-  }
+  };
+
+  const chartData = {
+    labels: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+    datasets: [
+      {
+        label: 'Test Data',
+        data: [65, 11, 50, 81, 56, 15, 59, 80, 40, 60, 10, 40],
+        backgroundColor: '#FFB200',
+        borderColor: '#FFB200',
+        borderWidth: 1,
+      },
+    ],
+  };
+
+
 
   return (
     <Layout>
@@ -147,11 +164,42 @@ export default function Dashboard() {
           </div>
 
           <div className=''>
-            <div className='bg-white rounded-lg p-5 h-full'>
+            <div className='bg-white rounded-lg p-5 h-full flex flex-col'>
               <p className='text-gray-800'>Aussie chef shares culinary</p>
 
-              <div>
-                
+              <div className='pt-5 h-full'>
+                <Bar data={chartData}
+                  options={{
+                    scales: {
+                      x: {
+                        display: true,
+                        grid: {
+                          display: false, // Hide x-axis grid lines
+                        },
+                      },
+                      y: {
+                        display: false,
+                      },
+                    },
+                    plugins: {
+                      legend: {
+                        display: false, // Hide the legend
+                      },
+                    },
+                    maintainAspectRatio: false, 
+                    responsive: true,
+                    height: 800,
+                    
+
+                    elements: {
+                      bar: {
+                        borderWidth: 0, 
+                        borderRadius: 10,
+                      },
+                    },
+                    
+                  }}
+                />
               </div>
             </div>
           </div>

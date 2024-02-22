@@ -15,20 +15,3 @@ body {
   
 }
 
-
-
-.progressBar {
-  width: 200px;
-  height: 20px;
-  background-color: #eee;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.progressFill {
-  height: 100%;
-  background-color: #4caf50;
-  border-radius: 10px;
-}
-
-

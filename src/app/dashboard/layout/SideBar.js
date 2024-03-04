@@ -11,7 +11,7 @@ export default function SideBar() {
 
   const lastIndex = getName.length - 1;
 
-  console.log(getName);
+  // console.log(getName);
 
   return (
     <div className="flex flex-col items-center justify-between py-5 px-4 h-full"> 

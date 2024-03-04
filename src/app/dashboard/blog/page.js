@@ -223,7 +223,6 @@ export default function Blog() {
           </div>
 
 
-
           <div className='space-y-6'>
 
             <div className='bg-white rounded p-4'>
@@ -274,6 +273,22 @@ export default function Blog() {
                 </p>
 
                 <Link href="#" className='text-primary text-sm font-medium mt-7 inline-block'>Detalies</Link>  
+            </div>
+
+            <div className='bg-white rounded p-4'>
+              <div className='pb-4'>
+                  <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-violet-100'>Deep</span>
+                  <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-orange-100'>Minimal</span>
+              </div>
+
+              
+
+              <h2 className='text-2xl text-gray-800 font-medium pt-4'>Cologne</h2>
+              <p className='pt-3'>
+                When you enter into any new area of science, you almost always find.
+              </p>
+
+              <Link href="#" className='text-primary text-sm font-medium mt-7 inline-block'>Detalies</Link>  
             </div>
 
             <div className='bg-white rounded p-4'>

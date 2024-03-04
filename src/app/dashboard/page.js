@@ -59,7 +59,6 @@ export default function Dashboard() {
                   <div className="flex-auto">
                     <div className="text-xl text-slate-900 font-semibold dark:text-slate-300">
                       <Link href="/">
-                        
                         {items.name}
                       </Link>
                     </div>
@@ -88,7 +87,6 @@ export default function Dashboard() {
                   </div>
                 </div>
 
-
                 <div className='mt-5'>
                   <div className='flex justify-between text-xs font-medium'>
                     <p className='text-gray-800 '>Twitter</p>
@@ -98,7 +96,6 @@ export default function Dashboard() {
                     <div className={`absolute top-0 left-0 bottom-0 w-[75%] rounded-lg ${i == 0 ? 'bg-green-400':i == 1 ? 'bg-red-400':'bg-blue-400'}`}></div>
                   </div>
                 </div>
-
                 
               </div>
             </div>

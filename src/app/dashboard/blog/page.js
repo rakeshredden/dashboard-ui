@@ -152,18 +152,20 @@ export default function Blog() {
                 <Link href="#" className='text-primary text-sm font-medium mt-7 inline-block'>Detalies</Link>  
             </div>
 
-            <div className='bg-white rounded p-4'>
+            <div className='rounded p-4 text-white bg-black bg-cover bg-center bg-opacity-50' style={{backgroundImage: 'url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg)'}}>
                 <div className='pb-4'>
+                    <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-violet-100'>Deep</span>
                     <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-orange-100'>Minimal</span>
-                    <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-violet-100'>Designer</span>
                 </div>
 
-                <h2 className='text-2xl text-gray-800 font-medium pt-4'>Kuala Lumpur</h2>
+                {/* <div className='h-20'></div> */}
+
+                <h2 className='text-2xl text-white font-medium pt-4'>Cologne</h2>
                 <p className='pt-3'>
                   When you enter into any new area of science, you almost always find.
                 </p>
 
-                <Link href="#" className='text-primary text-sm font-medium mt-7 inline-block'>Detalies</Link>  
+                <Link href="#" className='text-white text-sm font-medium mt-7 inline-block'>Detalies</Link>  
             </div>
           </div>
 
@@ -185,7 +187,7 @@ export default function Blog() {
                 <Link href="#" className='text-primary text-sm font-medium mt-7 inline-block'>Detalies</Link>  
             </div>
 
-            <div  className=' rounded p-4 text-white bg-black bg-cover bg-center bg-opacity-50' style={{backgroundImage: 'url(https://images.pexels.com/photos/3283907/pexels-photo-3283907.jpeg)'}}>
+            <div className='rounded p-4 text-white bg-black bg-cover bg-center bg-opacity-50' style={{backgroundImage: 'url(https://images.pexels.com/photos/3283907/pexels-photo-3283907.jpeg)'}}>
                 <div className='pb-4'>
                     <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-violet-100'>Deep</span>
                     <span className='text-xs font-medium text-gray-800 px-3 py-1 rounded inline-block mt-1 mr-1 bg-orange-100'>Minimal</span>

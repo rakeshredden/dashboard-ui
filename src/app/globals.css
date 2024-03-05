@@ -15,3 +15,18 @@ body {
   
 }
 
+.rbc-calendar .rbc-header, .rbc-calendar .rbc-month-view{
+  @apply border-0 !important;
+}
+.rbc-off-range-bg, .rbc-off-range{
+  @apply bg-transparent text-neutral-300 !important;
+}
+.rbc-date-cell{
+  @apply p-3;
+}
+
+
+
+
+
+

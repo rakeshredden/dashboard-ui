@@ -23,4 +23,5 @@ const EventCalendar = ({ events }) => {
   );
 };
 
+
 export default EventCalendar;

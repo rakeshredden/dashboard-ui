@@ -10,7 +10,6 @@ export default function Blog() {
   return (
     <Layout>
         
-
         <div className='grid grid-cols-3 gap-6'>
 
           <div className='rounded-lg bg-indigo-600 p-5 transition-all text-white shadow hover:shadow-xl hover:shadow-indigo-200'>
@@ -92,7 +91,6 @@ export default function Blog() {
             </div>
           </div>
 
-
           <div className='rounded-lg bg-green-500 p-5 transition-all text-white shadow hover:shadow-xl hover:shadow-green-200'>
             <div className='flex items-center justify-between'>
                 <h2 className='text-xl font-medium'>CraftworkBank</h2>
@@ -135,7 +133,7 @@ export default function Blog() {
 
         </div>
 
-        <section className='pt-12 space-y-6'>
+        <section className='pt-10 pb-8 space-y-6'>
             <div className='bg-white rounded-lg hover:shadow-lg transition-all p-4'>
                 <div className='grid grid-cols-11 items-center'>
                     <div className='col-span-2 flex items-center'>

@@ -266,7 +266,7 @@ export default function Report() {
             </div>
         </div>
 
-        <div className='pt-10'>
+        <div className='pt-12'>
             <ul className='flex space-x-5 font-medium'>
                 <li>
                     <button className={` ${activeTab == 'Design' ? 'text-neutral-900':'text-neutral-400'} `} onClick={() => handleTab('Design')}>Design</button>
@@ -280,7 +280,7 @@ export default function Report() {
             </ul>
         </div>
 
-        <div>
+        <div className='pt-6'>
             {activeTab == 'Design' ? (
                 <div className='grid grid-rows-2 grid-cols-6 gap-6 h-96'>
                     <div className='col-span-2 row-span-2'>
@@ -288,62 +288,66 @@ export default function Report() {
                     </div>
 
                     <div className=' row-span-2'>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/20219544/pexels-photo-20219544/free-photo-of-waves-galore.jpeg' alt=''/>   
                     </div>
 
                     <div className=''>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/20255306/pexels-photo-20255306/free-photo-of-flamingos-in-the-water.jpeg' alt=''/>   
                     </div>
 
                     <div className=' row-span-2'>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/20216447/pexels-photo-20216447/free-photo-of-a-black-car-is-parked-on-the-street.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/20281228/pexels-photo-20281228/free-photo-of-a-plant-growing-in-a-small-hole-in-a-wall.jpeg' alt=''/>   
                     </div>
 
 
                     <div className=' '>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/18938520/pexels-photo-18938520/free-photo-of-tree-on-a-beach.jpeg' alt=''/>   
                     </div>
 
                     <div className=' '>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/20377280/pexels-photo-20377280/free-photo-of-eine-alte-windmuhle.jpeg' alt=''/>   
                     </div>
 
                     <div className=' '>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19850521/pexels-photo-19850521/free-photo-of-a-butterfly-resting-on-a-rock-in-the-sun.jpeg' alt=''/>   
                     </div>
                 </div>
             ):activeTab == 'Product' ? (
 
                 <div className='grid grid-rows-2 grid-cols-6 gap-6 h-96'>
-                    <div className='col-span-2 row-span-2'>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg' alt=''/>   
+                    
+                    <div className=' '>
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/4397919/pexels-photo-4397919.jpeg' alt=''/>   
                     </div>
 
                     <div className=' row-span-2'>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/3801990/pexels-photo-3801990.jpeg' alt=''/>   
+                    </div>
+
+                    <div className='col-span-2 row-span-2'>
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/2638026/pexels-photo-2638026.jpeg' alt=''/>   
                     </div>
 
                     <div className=''>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/1797103/pexels-photo-1797103.jpeg' alt=''/>   
                     </div>
+
+
+                    
 
                     <div className=' row-span-2'>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/20216447/pexels-photo-20216447/free-photo-of-a-black-car-is-parked-on-the-street.jpeg' alt=''/>   
-                    </div>
-
-
-                    <div className=' '>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/4202349/pexels-photo-4202349.jpeg' alt=''/>   
                     </div>
 
                     <div className=' '>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/4033324/pexels-photo-4033324.jpeg' alt=''/>   
                     </div>
 
                     <div className=' '>
-                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/19150732/pexels-photo-19150732/free-photo-of-model-in-a-white-blouse-with-chiffon-short-sleeves-and-a-leopard-print-skirt-sitting-on-the-base-of-a-column-with-bluemint-shopping-bag.jpeg' alt=''/>   
+                        <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg' alt=''/>   
                     </div>
                 </div>
+
             ):(
 
                 <div className='grid grid-rows-2 grid-cols-6 gap-6 h-96'>
@@ -360,8 +364,6 @@ export default function Report() {
                     <div className=''>
                         <img className='w-full h-full rounded-xl object-cover' src='https://images.pexels.com/photos/1161542/pexels-photo-1161542.jpeg' alt=''/>   
                     </div>
-
-                    
 
 
                     <div className=' '>
